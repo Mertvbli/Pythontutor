@@ -1,0 +1,14 @@
+# First solution
+
+from math import ceil
+
+h, a, b = int(input()),int(input()), int(input())
+d = int(ceil((h - b) / (a - b)))
+print(d)
+
+# Second solution
+
+h = int(input())
+a = int(input())
+b = int(input())
+print(int((h - a - 1) // (a - b) + 2))
