@@ -1,0 +1,6 @@
+P = int(input())
+X = int(input())
+Y = int(input())
+money_b = 100 * X + Y
+money_a = int(money_b * (100 + P) / 100)
+print(money_a // 100, money_a % 100)
