@@ -6,3 +6,11 @@ for i in range(N - 1):
     number = int(input())
     sum -= number
 print(sum)
+
+# 2 solution
+
+n = int(input())
+card = [int(input()) for _ in range(n-1)]
+for i in range(1, n+1):
+    if i not in card:
+        print(i)
