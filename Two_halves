@@ -1,0 +1,12 @@
+# Solution 1
+
+a = input()
+l = len(a) + 1
+part_1 = a[0:l//2]
+part_2 = a[l//2:]
+print(part_2 + part_1)
+
+# Solution 2
+
+s = input()
+print(s[(len(s) + 1) // 2:] + s[:(len(s) + 1) // 2])
